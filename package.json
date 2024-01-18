@@ -71,5 +71,5 @@
     "test": "NODE_ENV=test ava --serial --verbose"
   },
   "typings": "./dist/src/Liqe.d.ts",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
