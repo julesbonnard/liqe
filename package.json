@@ -19,6 +19,9 @@
     "nearley": "^2.20.1",
     "ts-error": "^1.0.6"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "description": "Lightweight and performant Lucene-like parser, serializer and search engine.",
   "devDependencies": {
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
@@ -50,7 +53,7 @@
   ],
   "license": "BSD-3-Clause",
   "main": "./dist/src/Liqe.js",
-  "name": "liqe",
+  "name": "@julesbonnard/liqe",
   "repository": {
     "type": "git",
     "url": "git@github.com:gajus/liqe.git"
@@ -68,5 +71,5 @@
     "test": "NODE_ENV=test ava --serial --verbose"
   },
   "typings": "./dist/src/Liqe.d.ts",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
